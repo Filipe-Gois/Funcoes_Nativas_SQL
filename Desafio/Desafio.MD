@@ -1,14 +1,14 @@
--Crie uma tabela chamada "Employees" com as seguintes colunas:
+-Crie um base de dados chamado "MercadinhoSenai" com a tabela chamada “Produtos” com as seguintes colunas:
 
-    ID (inteiro, chave primária)
-    Nome (texto, até 50 caracteres)
-    Salário (decimal)
-Insira alguns registros na tabela "Employees" com diferentes salários.
+ID (inteiro, chave primária);
+Nome (texto, até 50 caracteres);
+Preco (decimal);
+Insira alguns registros na tabela "Produtos" com diferentes preços.
 
--Escreva uma consulta SQL que calcule e retorne a média dos salários dos funcionários.
+-Escreva uma consulta SQL que calcule e retorne a média dos preços dos produtos.
 
--Escreva outra consulta SQL que retorne o valor mais alto (máximo) e o valor mais baixo (mínimo) dos salários dos funcionários.
+-Escreva outra consulta SQL que retorne o valor mais alto (máximo) e o valor mais baixo (mínimo) dos preços dos produtos.
 
--Escreva uma consulta SQL que retorne o nome do funcionário com o salário mais alto.
+-Escreva uma consulta SQL que retorne o nome do produto com o maior preço.
 
-Dica: Para a média dos salários, use a função nativa AVG(). Para os valores máximo e mínimo dos salários, use as funções MAX() e MIN(). Para recuperar o nome do funcionário com o salário mais alto, você pode usar uma combinação de subconsulta ou a função nativa TOP.
+Dica: Para a média dos preços, use a função nativa AVG(). Para os valores máximo e mínimo dos preços, use as funções MAX() e MIN(). Para retornar o nome do produto com o maior preço, você pode usar uma combinação de subconsulta ou a função nativa TOP.
